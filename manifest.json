@@ -1,17 +1,22 @@
 {
-  "short_name": "Preço Certo",
-  "name": "Preço Certo - Calculadora de Supermercado",
-  "icons": [
-    {
-      "src": "https://flaticon.com",
-      "type": "image/png",
-      "sizes": "512x512",
-      "purpose": "any maskable"
-    }
-  ],
-  "start_url": ".",
+  "name": "Descontos",
+  "short_name": "Desc",
+  "start_url": "./",
+  "display": "standalone",
   "background_color": "#f4f4f9",
   "theme_color": "#1e3a8a",
-  "display": "standalone",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
